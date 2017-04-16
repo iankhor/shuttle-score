@@ -4,30 +4,34 @@ import React from 'react'
 import NotFound from './components/shared/NotFound'
 import App from './components/App';
 import LoginTransition from './components/shared/LoginTransition';
-import Private from './components/Private';
-import AuthError from './components/shared/AuthError';
+// import Private from './components/Private';
+// import AuthError from './components/shared/AuthError';
 
 //React-router 
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
+import { BrowserRouter, 
+         Route, 
+         Switch, 
+        //  Redirect
+         } from 'react-router-dom'
 
 //Init components
-import { auth } from './utils/init'
+// import { auth } from './utils/init'
 
 //Private Routes
-const PrivateRoute = ({ component, ...rest }) => (
-  <Route {...rest} 
-    render={props => (
-              auth.loggedIn() ? 
-                React.createElement(component, props) : 
-                <Redirect 
-                  to={{ pathname: '/auth/error',
-                        state: { from: props.location }
-                     }}
-                />
-            )
-          }
-  />
-)
+// const PrivateRoute = ({ component, ...rest }) => (
+//   <Route {...rest} 
+//     render={props => (
+//               auth.loggedIn() ? 
+//                 React.createElement(component, props) : 
+//                 <Redirect 
+//                   to={{ pathname: '/auth/error',
+//                         state: { from: props.location }
+//                      }}
+//                 />
+//             )
+//           }
+//   />
+// )
 
 const Routes = (props) => {
   return (

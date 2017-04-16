@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
 import shuttlecock from '../../assets/img/shuttlecock_red.svg'
 import '../css/style.css'
-import Home from './Home'
-import { auth, isAuth0ENVValid } from './../utils/init'
+// import Home from './Home'
+import { auth, 
+        //  isAuth0ENVValid 
+        } from './../utils/init'
 import { Container, Row, Col} from 'reactstrap'
 
 class AppContainer extends Component {
