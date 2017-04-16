@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Row } from 'reactstrap'
+import { Row, Col } from 'reactstrap'
 
 import SubCourt from './SubCourt'
 
@@ -16,8 +16,14 @@ class Court extends Component {
         render(){
           return (
             <Row>
-              <SubCourt side="left"/>
-              <SubCourt side="right"/>           
+              <Col xs="12" sm="6"> 
+                test 1
+              </Col>
+              <Col xs="12" sm="6"> 
+                test 2
+              </Col>
+              {/*<SubCourt side="left"/>*/}
+              {/*<SubCourt side="right"/>*/}           
             </Row>
           )
         }

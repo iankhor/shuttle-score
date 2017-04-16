@@ -26,13 +26,13 @@ class SubCourt extends Component {
 
         render(){
           return (
-                 <Col>
+                 <div>
                     <div className="text-score">
                       <Badge>{this.state.score}</Badge>
                     </div>
                     <Button className="text-score-button" block color="success" size="md" onClick={ this.add }>+</Button>
                     <Button className="text-score-button" block outline color="danger" size="md" onClick={ this.minus }>-</Button>
-                  </Col> 
+                  </div> 
           )
         }
 }
