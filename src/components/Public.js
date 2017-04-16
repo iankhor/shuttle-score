@@ -1,14 +1,11 @@
 import React from 'react'
 import App from './App'
-import Score from './Score'
+import Court from './Court'
 
 const Public = (props) => {
         return (
             <App> 
-              <div className="color-blue"> 
-                <h1>Score board</h1>
-              </div>
-              <Score />
+              <Court />
             </App>
         )
 }

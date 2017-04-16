@@ -1,5 +1,4 @@
 import Auth0Lock from 'auth0-lock'
-import logo from './../../assets/img/logo.svg'
 
 export default class AuthService {
   constructor(clientId, domain) {
@@ -10,7 +9,7 @@ export default class AuthService {
         responseType: 'token'
       },
       theme: {
-        logo: logo,
+        // logo: logo,
         primaryColor: '#7FDBFF'
       },
       languageDictionary: {

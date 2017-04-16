@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from '../../assets/img/logo.svg'
+import shuttlecock from '../../assets/img/shuttlecock-blue.svg'
 import '../css/style.css'
 import Home from './Home'
 import { auth, isAuth0ENVValid } from './../utils/init'
@@ -19,14 +19,14 @@ class App extends Component {
         <Container className="App">
             <Row>
               <Col>
-                <img src={logo} className="App-header App-logo" alt="logo" />
-                <h2>React + Auth0 + Bootstrap 4</h2>
-                <h2>Boilerplate</h2>
+                <img src={shuttlecock} className="App-header App-logo" alt="logo" />
+                <h2>Shuttle Score</h2>
                 { isAuth0ENVValid() }
               </Col>
             </Row>
 
-            <Row>
+           {/*
+             <Row>
               <Col>
                   <Home 
                     auth={auth}
@@ -34,7 +34,8 @@ class App extends Component {
                     token={auth.getToken()}
                   />
               </Col>
-            </Row>
+            </Row> 
+           */} 
             <Row>
               <Col>
                   {this.props.children}
