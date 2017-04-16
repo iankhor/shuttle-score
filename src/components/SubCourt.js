@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { Col,
-         Button, 
+import { Button, 
          Badge } from 'reactstrap'
 
 class SubCourt extends Component {

@@ -17,13 +17,11 @@ class Court extends Component {
           return (
             <Row>
               <Col xs="12" sm="6"> 
-                test 1
+                <SubCourt side="left"/>
               </Col>
               <Col xs="12" sm="6"> 
-                test 2
+                <SubCourt side="right"/>
               </Col>
-              {/*<SubCourt side="left"/>*/}
-              {/*<SubCourt side="right"/>*/}           
             </Row>
           )
         }
