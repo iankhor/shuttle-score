@@ -36,11 +36,8 @@ class AppContainer extends Component {
               </Col>
             </Row> 
            */} 
-            <Row>
-              <Col>
-                  {this.props.children}
-              </Col>
-            </Row>
+                  
+          {this.props.children}
         </Container>
     )
   }
