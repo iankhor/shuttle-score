@@ -17,7 +17,7 @@ class Court extends Component {
           return (
             <Row>
               <SubCourt side="left"/>
-              {/*<SubCourt side="right"/>*/}           
+              <SubCourt side="right"/>           
             </Row>
           )
         }
