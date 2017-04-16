@@ -5,7 +5,7 @@ import Court from './Court'
 const App = (props) => {
         return (
             <AppContainer> 
-              {/*<Court />*/}
+              <Court />
             </AppContainer>
         )
 }
