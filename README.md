@@ -1,5 +1,6 @@
 ### Status
 Working in progress
+Deployed MVP at [https://shuttle-score.herokuapp.com/](https://shuttle-score.herokuapp.com/)
 
 
 This boilerplate was bootstrapped with:   
