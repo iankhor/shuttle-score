@@ -1,30 +1,21 @@
 import React, { Component } from 'react'
 import { Row, Col } from 'reactstrap'
 
-import SubCourt from './SubCourt'
+import ScoreCounter from './ScoreCounter'
 
-class Court extends Component {
-        constructor(props){
-          super(props)
-
-          this.state = {
-            score:0
-          }
-
-        }
-
+class ScoreCard extends Component {
         render(){
           return (
             <Row>
               <Col xs="12" sm="6"> 
-                <SubCourt side="left"/>
+                <ScoreCounter side="left"/>
               </Col>
               <Col xs="12" sm="6"> 
-                <SubCourt side="right"/>
+                <ScoreCounter side="right"/>
               </Col>
             </Row>
           )
         }
 }
 
-export default Court
+export default ScoreCard

@@ -1,6 +1,20 @@
 h1 {
   font-size: 2em;
 }
+.court {
+  background-color: #0074d9;
+  height: 610px;
+  width: 1340px;
+}
+.court-line {
+  border: 3px solid #fff;
+}
+.sideline {
+  height: 40px;
+}
+.midcourt {
+  height: 253px;
+}
 .text-credit {
   font-size: 0.5em;
 }
@@ -39,7 +53,6 @@ h1 {
 }
 .border {
   border: 2px solid #000;
-  border-radius: 15px 50px 30px;
 }
 .routes {
   text-align: left;

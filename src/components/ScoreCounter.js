@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Button, 
          Badge } from 'reactstrap'
 
-class SubCourt extends Component {
+class ScoreCounter extends Component {
         constructor(props){
           super(props)
 
@@ -27,13 +27,13 @@ class SubCourt extends Component {
           return (
                  <div>
                     <div className="text-score">
-                      <Badge>{this.state.score}</Badge>
+                      <Badge pill color="danger" >{this.state.score}</Badge>
                     </div>
-                    <Button className="text-score-button" block color="success" size="md" onClick={ this.add }>+</Button>
-                    <Button className="text-score-button" block outline color="danger" size="md" onClick={ this.minus }>-</Button>
+                      <Button className="text-score-button" block color="success" size="md" onClick={ this.add }>+</Button>
+                      <Button className="text-score-button" block outline color="danger" size="md" onClick={ this.minus }>-</Button>
                   </div> 
           )
         }
 }
 
-export default SubCourt
+export default ScoreCounter
