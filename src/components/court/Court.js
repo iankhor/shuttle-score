@@ -5,53 +5,49 @@ class Court extends Component {
     render(){
         return(
           <div className="court">
-            <Row className=""> {/* Side line*/}
-              <Col className="court-line sideline"> {/* Side Back Court*/}
-                back
-              </Col>
-              <Col className="court-line sideline"> {/* Side Mid Court*/}
-                Mid
-              </Col>
-              <Col className="court-line sideline"> {/* Side Front Court*/}
-                Front
-              </Col>
-            </Row>
 
-            <Row> {/* Mid Court Left */}
-              <Col className="court-line midcourt"> {/* Side Back Court*/}
-                back
-              </Col>
-              <Col className="court-line midcourt"> {/* Side Mid Court*/}
-                Mid
-              </Col>
-              <Col className="court-line midcourt"> {/* Side Front Court*/}
-                Front
-              </Col>
-            </Row>
+            {/* Left Side line */}
+            <div className=""> 
+              {/* Side Back Court*/}
+              <div className="court-line sideline-back"></div>
+              {/* Side Mid Court*/}
+              <div className="court-line sideline-mid"></div>
+              {/* Side Front Court*/}
+              <div className="court-line sideline-front"></div>
+            </div>
 
-            <Row> {/* Mid Court Right */}
-              <Col className="court-line midcourt"> {/* Side Back Court*/}
-                back
-              </Col>
-              <Col className="court-line midcourt"> {/* Side Mid Court*/}
-                Mid
-              </Col>
-              <Col className="court-line midcourt"> {/* Side Front Court*/}
-                Front
-              </Col>
-            </Row>
+            {/* Left Mid court*/}
+            <div className=""> 
+              {/* Mid Back Court*/}
+              <div className="court-line midcourt-back"></div>
+              {/* Mid Mid Court Left*/}
+              <div className="court-line midcourt-mid"></div>
+              {/* Mid Front Court*/}
+              <div className="court-line midcourt-front"></div>
+            </div>
 
-            <Row className=""> {/* Side line*/}
-              <Col className="court-line sideline"> {/* Side Back Court*/}
-                back
-              </Col>
-              <Col className="court-line sideline"> {/* Side Mid Court*/}
-                Mid
-              </Col>
-              <Col className="court-line sideline"> {/* Side Front Court*/}
-                Front
-              </Col>
-            </Row>
+            {/* Left Mid court Left*/}
+            <div className=""> 
+              {/* Mid Back Court*/}
+              <div className="court-line midcourt-back"></div>
+              {/* Mid Mid Court Left*/}
+              <div className="court-line midcourt-mid"></div>
+              {/* Mid Front Court*/}
+              <div className="court-line midcourt-front"></div>
+            </div>
+
+             {/* Right Side line */}
+            <div className=""> 
+              {/* Side Back Court*/}
+              <div className="court-line sideline-back"></div>
+              {/* Side Mid Court*/}
+              <div className="court-line sideline-mid"></div>
+              {/* Side Front Court*/}
+              <div className="court-line sideline-front"></div>
+            </div>
+
+
+            
 
           </div>
         )
