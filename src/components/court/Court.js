@@ -7,7 +7,7 @@ class Court extends Component {
           <div className="court">
 
             {/* Top Side line */}
-            <div className=""> 
+            <div className="sideline"> 
               {/* Left Side Back Court*/}
               <div className="court-line sideline-back"></div>
               {/* Left Side Mid Court*/}
@@ -24,7 +24,7 @@ class Court extends Component {
             </div>
 
             {/* Top Mid court*/}
-            <div className=""> 
+            <div className="midcourt"> 
               {/* Left Mid Back Court*/}
               <div className="court-line midcourt-back"></div>
               {/* Left Mid Court Left*/}
@@ -41,7 +41,7 @@ class Court extends Component {
             </div>
 
             {/* Bottom Mid court*/}
-            <div className=""> 
+            <div className="midcourt"> 
               {/* Left Mid Back Court*/}
               <div className="court-line midcourt-back"></div>
               {/* Left Mid Court Left*/}
@@ -58,7 +58,7 @@ class Court extends Component {
             </div>
 
              {/* Bottom Side line */}
-            <div className=""> 
+            <div className="sideline"> 
               {/* Left Side Back Court*/}
               <div className="court-line sideline-back"></div>
               {/* Left Side Mid Court*/}

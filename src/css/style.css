@@ -11,6 +11,9 @@ h1 {
 .court-line {
   border: 3px solid #fff;
 }
+.sideline {
+  height: 42px;
+}
 .sideline-back {
   width: 80px;
   height: 42px;
@@ -25,6 +28,9 @@ h1 {
   width: 200px;
   height: 42px;
   display: inline-block;
+}
+.midcourt {
+  height: 253px;
 }
 .midcourt-back {
   width: 80px;
