@@ -3,13 +3,46 @@ h1 {
 }
 .court {
   background-color: #0074d9;
-  border: 2px solid #000;
   padding: 20px;
-  height: 800px;
-  width: 1500px;
+  height: 630px;
+  width: 1400px;
 }
-.court-line {
+.courtline {
   border: 3px solid #fff;
+}
+.courtline-topside {
+  border: 3px solid #fff;
+  border-top: 6px solid #fff;
+}
+.courtline-bottomside {
+  border: 3px solid #fff;
+  border-bottom: 6px solid #fff;
+}
+.countline-midleft {
+  border-left: 6px solid #f00;
+}
+.countline-midright {
+  border-right: 6px solid #f00;
+}
+.courtline-left {
+  border-left: 6px solid #fff;
+}
+.courtline-right {
+  border-right: 6px solid #fff;
+}
+.courtline-leftside {
+  border: 3px solid #fff;
+  border-left: 6px solid #fff;
+}
+.courtline-rightside {
+  border: 3px solid #fff;
+  border-right: 6px solid #fff;
+}
+.courtline-horizontal-thick {
+  border-top: 6px solid #fff;
+}
+.courtline-vertical-side {
+  border-top: 6px solid #fff;
 }
 .sideline {
   height: 42px;
