@@ -1,5 +1,5 @@
 ### Status
-Working in progress
+Work in progress
 Deployed MVP at [https://shuttle-score.herokuapp.com/](https://shuttle-score.herokuapp.com/)
 
 
