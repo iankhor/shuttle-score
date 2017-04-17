@@ -6,44 +6,72 @@ class Court extends Component {
         return(
           <div className="court">
 
-            {/* Left Side line */}
+            {/* Top Side line */}
             <div className=""> 
-              {/* Side Back Court*/}
+              {/* Left Side Back Court*/}
               <div className="court-line sideline-back"></div>
-              {/* Side Mid Court*/}
+              {/* Left Side Mid Court*/}
               <div className="court-line sideline-mid"></div>
-              {/* Side Front Court*/}
+              {/* Left Side Front Court*/}
               <div className="court-line sideline-front"></div>
-            </div>
 
-            {/* Left Mid court*/}
-            <div className=""> 
-              {/* Mid Back Court*/}
-              <div className="court-line midcourt-back"></div>
-              {/* Mid Mid Court Left*/}
-              <div className="court-line midcourt-mid"></div>
-              {/* Mid Front Court*/}
-              <div className="court-line midcourt-front"></div>
-            </div>
-
-            {/* Left Mid court Left*/}
-            <div className=""> 
-              {/* Mid Back Court*/}
-              <div className="court-line midcourt-back"></div>
-              {/* Mid Mid Court Left*/}
-              <div className="court-line midcourt-mid"></div>
-              {/* Mid Front Court*/}
-              <div className="court-line midcourt-front"></div>
-            </div>
-
-             {/* Right Side line */}
-            <div className=""> 
-              {/* Side Back Court*/}
+              {/* Right Side Front Court*/}
+              <div className="court-line sideline-front"></div>
+              {/* Right Side Mid Court*/}
+              <div className="court-line sideline-mid"></div>
+              {/* Right Side Back Court*/}
               <div className="court-line sideline-back"></div>
-              {/* Side Mid Court*/}
+            </div>
+
+            {/* Top Mid court*/}
+            <div className=""> 
+              {/* Left Mid Back Court*/}
+              <div className="court-line midcourt-back"></div>
+              {/* Left Mid Court Left*/}
+              <div className="court-line midcourt-mid"></div>
+              {/* Left Mid Front Court*/}
+              <div className="court-line midcourt-front"></div>
+
+              {/* Right Mid Front Court*/}
+              <div className="court-line midcourt-front"></div>
+              {/* Right Mid Court Left*/}
+              <div className="court-line midcourt-mid"></div>
+              {/* Right Mid Back Court*/}
+              <div className="court-line midcourt-back"></div>
+            </div>
+
+            {/* Bottom Mid court*/}
+            <div className=""> 
+              {/* Left Mid Back Court*/}
+              <div className="court-line midcourt-back"></div>
+              {/* Left Mid Court Left*/}
+              <div className="court-line midcourt-mid"></div>
+              {/* Left Mid Front Court*/}
+              <div className="court-line midcourt-front"></div>
+
+              {/* Right Mid Front Court*/}
+              <div className="court-line midcourt-front"></div>
+              {/* Right Mid Court Left*/}
+              <div className="court-line midcourt-mid"></div>
+              {/* Right Mid Back Court*/}
+              <div className="court-line midcourt-back"></div>
+            </div>
+
+             {/* Bottom Side line */}
+            <div className=""> 
+              {/* Left Side Back Court*/}
+              <div className="court-line sideline-back"></div>
+              {/* Left Side Mid Court*/}
               <div className="court-line sideline-mid"></div>
-              {/* Side Front Court*/}
+              {/* Left Side Front Court*/}
               <div className="court-line sideline-front"></div>
+
+              {/* Right Side Front Court*/}
+              <div className="court-line sideline-front"></div>
+              {/* Right Side Mid Court*/}
+              <div className="court-line sideline-mid"></div>
+              {/* Right Side Back Court*/}
+              <div className="court-line sideline-back"></div>
             </div>
 
 
